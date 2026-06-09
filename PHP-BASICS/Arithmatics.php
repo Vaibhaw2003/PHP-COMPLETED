@@ -13,3 +13,33 @@ $output = $a * $b;
 echo $output;
 echo "<br>";
 ?>
+
+// Assignment Operators
+<?php
+$a = 34;
+$a += 5; // $a = $a + 5
+echo $a;
+echo "<br>";
+$a = 34;
+$a -= 5; // $a = $a - 5
+echo $a;
+echo "<br>";
+?>
+
+// Comparison Operators
+<?php
+$a = 34;
+$b = 56;
+var_dump($a == $b); // Equal to
+echo "<br>";
+var_dump($a != $b); // Not equal to
+echo "<br>";
+var_dump($a > $b); // Greater than
+echo "<br>";
+var_dump($a < $b); // Less than
+echo "<br>";
+var_dump($a >= $b); // Greater than or equal to
+echo "<br>";
+var_dump($a <= $b); // Less than or equal to
+echo "<br>";
+?>
