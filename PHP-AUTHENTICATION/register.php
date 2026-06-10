@@ -1,6 +1,11 @@
 <?php
 
-include 'db.php';
+include_once __DIR__ . '/db.php';
+
+// ensure $conn is available after including db.php
+if (!isset($conn) || !$conn) {
+    die('Database connection not established.');
+}
 
 if(isset($_POST['register']))
 {
@@ -15,9 +20,11 @@ if(isset($_POST['register']))
     $sql = "INSERT INTO users(name,email,password)
             VALUES('$name','$email','$password')";
 
-    mysqli_query($conn,$sql);
-
-    echo "Registration Successful";
+    if (mysqli_query($conn, $sql)) {
+        echo "Registration Successful";
+    } else {
+        echo "Registration failed: " . mysqli_error($conn);
+    }
 }
 
 ?>
