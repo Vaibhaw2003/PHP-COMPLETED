@@ -30,6 +30,9 @@ echo "<br>";
 <?php
 $a = 34;
 $b = 56;
+$output = $a == $b; // Equal to
+echo $output;
+echo "<br>";
 var_dump($a == $b); // Equal to
 echo "<br>";
 var_dump($a != $b); // Not equal to
