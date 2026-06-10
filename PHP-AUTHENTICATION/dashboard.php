@@ -37,7 +37,7 @@ $email = $_SESSION['email'];
         <tr>
             <th style="padding: 10px; border: 1px solid black;">ID</th>
             <th style="padding: 10px; border: 1px solid black;">Name</th>
-            <th style="padding: 10px; border: 1px solid black;">Email</th>
+           
         </tr>
         <tr>
             <td style="padding: 10px; border: 1px solid black;">
@@ -45,9 +45,6 @@ $email = $_SESSION['email'];
             </td>
             <td style="padding: 10px; border: 1px solid black;">
                 <?php echo $name; ?>
-            </td>
-            <td style="padding: 10px; border: 1px solid black;">
-                <?php echo $email; ?>
             </td>
         </tr>
     </table>

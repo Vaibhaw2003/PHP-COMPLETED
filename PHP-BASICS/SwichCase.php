@@ -36,7 +36,7 @@ switch($choice){
 ?> -->
 
 
-<?php
+<!-- <?php
 
 $a = 3;
 $b = 5;
@@ -77,6 +77,9 @@ switch($choice){
         echo "The result is: " . $result;
         break;
     }
+    default:{
+        echo "Invalid choice";
+    }
 }
 
-?>
+?> -->

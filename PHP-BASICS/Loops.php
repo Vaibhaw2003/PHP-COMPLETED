@@ -24,4 +24,36 @@ foreach ($fruits as $fruit) {
  while($i<5){
     echo "The number is: $i<br>";
     $i++;
- }
+ } 
+ ?>-->
+
+
+ <!-- <?php
+
+$i = 0;
+
+do{
+    echo "The number is: $i<br>";
+    $i++;
+} while($i < 5);
+print "Loop ended";
+
+?> -->
+
+// For Loop Example -------
+
+<!-- <?php
+for ($i = 0; $i < 5; $i++) {
+    echo "The number is: $i<br>";
+}?> -->
+
+
+<!-- Do-While Loop Example -------
+<?php
+do{
+    echo "The number is: $i<br>";
+    $i++;
+} while($i < 5);
+print "Loop ended";
+
+?> -->

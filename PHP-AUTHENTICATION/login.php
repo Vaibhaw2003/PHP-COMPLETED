@@ -22,11 +22,11 @@ if(isset($_POST['login']))
             $user['password']
         ))
         {
-            $_SESSION['user_id']
-                = $user['id'];
+            $_SESSION['user_id']= $user['id'];
 
-            $_SESSION['name']
-                = $user['name'];
+            $_SESSION['name']= $user['name'];
+
+            $_SESSION['email']=  $user['email'];
 
             header("Location: dashboard.php");
         }
@@ -40,6 +40,7 @@ if(isset($_POST['login']))
         echo "User Not Found";
     }
 }
+
 ?>
 
 <!DOCTYPE html>
@@ -74,7 +75,7 @@ if(isset($_POST['login']))
             <label for="password">Password:</label>
             <input type="password" name="password" id="password" placeholder="Enter your password">
 
-            <input style="background-color: #007bff; color: white; border: none; padding: 10px; cursor: pointer;" type="submit" name="login">
+            <input style="background-color: #007bff; color: white; border: none; padding: 10px; cursor: pointer; border : 2 solid black" type="submit" name="login">
         </form>
     </div>
     
