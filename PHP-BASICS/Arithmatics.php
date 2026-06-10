@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 // Arithmatic Operators
 $a = 34;
 $b = 56;
@@ -45,4 +45,33 @@ var_dump($a >= $b); // Greater than or equal to
 echo "<br>";
 var_dump($a <= $b); // Less than or equal to
 echo "<br>";
+?> -->
+
+// Logical Operators
+<!-- <?php
+
+$a = 34;
+$b = 56;
+
+$resuslt = ($a> $b);
+echo $resuslt . "<br>" .' $a is greater than $b';
+$result = ($a < $b);
+echo $result . "<br>" .' $a is less than $b';
+$result = ($a == $b);
+echo $result . "<br>" .' $a is equal to $b';
+
+?> -->
+
+<?php
+
+$a = 3;
+$b = 5;
+
+echo "<br>";
+
+$result = ($a > $b) && ($a == 3);
+echo $result . "<br>" . ' $a is greater than $b and $a is equal to 3';
+$result = ($a > $b) || ($a == 3);
+echo $result . "<br>" . ' $a is greater than $b or $a is equal to 3';
+
 ?>
