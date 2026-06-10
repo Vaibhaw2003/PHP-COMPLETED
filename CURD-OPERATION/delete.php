@@ -1,3 +1,9 @@
+<?php
+echo 'thise is delete page';
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

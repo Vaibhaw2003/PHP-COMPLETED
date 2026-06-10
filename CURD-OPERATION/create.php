@@ -1,6 +1,26 @@
 <?php
 
+if(isset($_POST['Create']))
+{
+    $Name = $_POST['name'];
+    $Email = $_POST['email'];
+    $Phone = $_POST['phone'];
+
+    echo "<table border='1'>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+            <tr>
+                <td>$Name</td>
+                <td>$Email</td>
+                <td>$Phone</td>
+            </tr>
+          </table>";
+}
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,13 +51,14 @@
                         <th>Email</th>
                         <th>Phone</th>
                     </tr>
+            </table>
     </div>
     <div>
-            <form action="" method="post">
+            <form action="" method="POST">
                 <input type="text" name="name" placeholder="Enter Name" required><br><br>
                 <input type="email" name="email" placeholder="Enter Email" required><br><br>
                 <input type="text" name="phone" placeholder="Enter Phone" required><br><br>
-                <input type="submit" value="Create">
+                <input type="submit" name="Create" value="Create">
             </form>
         </div>
     </div>
