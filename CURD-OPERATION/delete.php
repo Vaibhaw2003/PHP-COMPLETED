@@ -1,7 +1,18 @@
 <?php
-echo 'thise is delete page';
+include 'db.php'; // database connection file
 
+if(isset($_POST['delete'])){
 
+    $email = $_POST['email'];
+
+    $sql = "DELETE FROM users WHERE email='$email'";
+
+    if(mysqli_query($conn, $sql)){
+        echo "Record deleted successfully";
+    } else {
+        echo "Error deleting record";
+    }
+}
 ?>
 
 <!DOCTYPE html>
