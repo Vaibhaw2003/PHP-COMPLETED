@@ -26,7 +26,7 @@ if($a==$b){
 
 
 
-<?php 
+<!-- <?php 
 
 $name = 'vaibhaw singh';
 $name2 ='harsh singh';
@@ -37,3 +37,6 @@ if($name===$name2){
 }else{
     echo ' invalide';
 }
+
+?> -->
+
