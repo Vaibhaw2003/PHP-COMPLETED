@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 $x = 10;
 $y = 20;
 if ($x > $y) {
@@ -6,4 +6,20 @@ if ($x > $y) {
 } else {
     echo "x is not greater than y";
 }
+?> -->
+
+
+<! -- compare both valuse -- >
+
+<?php
+
+$a = 10;
+$b = "10";
+
+if($a==$b){
+    echo " both are equal";
+}else{
+    echo " not equal";
+}
+
 ?>

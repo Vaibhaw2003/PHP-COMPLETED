@@ -43,7 +43,7 @@ exit();
     </nav>
 </div>
 <div>
-    <h2 style="color: red;background: #000; height : 50px; with: 50px; display:flex; justify-content:center; margin-top:30px">
+    <h2 style="color: red;background: #000; height : 50px; display:flex; justify-content:center; margin-top:30px">
             ENTER YOUR DETAILS
         </h2>
 </div>
