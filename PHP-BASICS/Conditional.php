@@ -11,7 +11,7 @@ if ($x > $y) {
 
 <! -- compare both valuse -- >
 
-<?php
+<!-- <?php
 
 $a = 10;
 $b = "10";
@@ -22,4 +22,18 @@ if($a==$b){
     echo " not equal";
 }
 
-?>
+?> -->
+
+
+
+<?php 
+
+$name = 'vaibhaw singh';
+$name2 ='harsh singh';
+
+if($name===$name2){
+    echo ' both are equal ';
+
+}else{
+    echo ' invalide';
+}
