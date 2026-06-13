@@ -7,10 +7,10 @@ $database = "Demo_system";
 $servername = "localhost";
 
 $conn = mysqli_connect(
+   $servername,
     $username,
     $password,
-    $database,
-    $servername,
+    $database
 );
 
 if(!$conn){
