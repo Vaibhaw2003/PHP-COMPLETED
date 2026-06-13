@@ -1,3 +1,20 @@
+<?php
+
+if(isset($_POST['Submit']))
+{
+    $user = [
+        "name"  => $_POST['name'].'<br>',
+        "email" => $_POST['email'].'<br>',
+        "phone" => $_POST['phone'].'<br>',
+        "Age" => $_POST['age'].'<br>',
+        "Gender" => $_POST['gender']
+    ];
+
+    print_r($user);
+}
+
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +36,7 @@
 
    <div style="display:flex; justify-content:center; align-items:center; height:100vh; background:#f5f5f5;">
 
-    <form method="post"
+    <form action="Dashboard.php" method="POST"
           style="width:400px; padding:25px; border:3px solid rgb(51, 161, 229); border-radius:10px; background:#e71f1f; display:flex; flex-direction:column; gap:12px;">
 
         <h2 style="text-align:center; margin-bottom:10px; color: greenyellow">
@@ -54,7 +71,7 @@
             <option value="Other">Other</option>
         </select>
 
-        <input type="submit" value="Submit"
+        <input type="submit" name="Submit"  value="Submit" 
                style="padding:10px; background:black; color:white; border:none; cursor:pointer; border-radius:5px;">
     </form>
 </div>
