@@ -1,7 +1,3 @@
-<?php
-echo ' vaibhaw singh';
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,18 +6,17 @@ echo ' vaibhaw singh';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="margin: 0; padding : 0"; background: black;>
+<body style="margin: 0; padding : 0";>
+
     <div style="display:flex; justify-content:space-between; align-items:center; color:red; height:50px; background-color:black; padding:0 20px;">
-    
     <h2>Fill Your Form</h2>
-    
     <nav style="display:flex; gap:20px;">
         <a href="Form.php" style="color:white; text-decoration:none;">Home</a>
         <a href="#" style="color:white; text-decoration:none;">About</a>
         <a href="Dashborde.php" style="color:white; text-decoration:none;">Dashboard</a>
     </nav>
-
 </div>
+
    <div style="display:flex; justify-content:center; align-items:center; height:100vh; background:#f5f5f5;">
 
     <form method="post"
@@ -61,14 +56,12 @@ echo ' vaibhaw singh';
 
         <input type="submit" value="Submit"
                style="padding:10px; background:black; color:white; border:none; cursor:pointer; border-radius:5px;">
-
     </form>
 </div>
 <div>
      <footer style="background-color: black; color: white; padding: 20px; text-align: center; margin-top: 20px;height: 40px; display: flex; align-items: center; justify-content: center;">
             <p>&copy; 2023 My Website. All rights reserved.</p>
-
-        </footer>
+     </footer>
 </div>
     
 </body>
