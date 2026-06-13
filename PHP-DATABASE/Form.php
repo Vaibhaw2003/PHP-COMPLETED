@@ -1,6 +1,5 @@
 <?php
 echo ' vaibhaw singh';
-if(isset[])
 
 ?>
 
@@ -11,7 +10,7 @@ if(isset[])
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="margin: 0; padding : 0";>
+<body style="margin: 0; padding : 0"; background: black;>
     <div style="display:flex; justify-content:space-between; align-items:center; color:red; height:50px; background-color:black; padding:0 20px;">
     
     <h2>Fill Your Form</h2>
@@ -26,16 +25,16 @@ if(isset[])
    <div style="display:flex; justify-content:center; align-items:center; height:100vh; background:#f5f5f5;">
 
     <form method="post"
-          style="width:400px; padding:25px; border:1px solid #ccc; border-radius:10px; background:white; display:flex; flex-direction:column; gap:12px;">
+          style="width:400px; padding:25px; border:3px solid rgb(51, 161, 229); border-radius:10px; background:#e71f1f; display:flex; flex-direction:column; gap:12px;">
 
-        <h2 style="text-align:center; margin-bottom:10px;">
+        <h2 style="text-align:center; margin-bottom:10px; color: greenyellow">
             Registration Form
         </h2>
 
         <label>Name</label>
         <input type="text" name="name"
                placeholder="Enter your name"
-               style="padding:8px;">
+               style="padding:8px; color:rgb(111, 225, 35)">
 
         <label>Email</label>
         <input type="email" name="email"
@@ -64,7 +63,12 @@ if(isset[])
                style="padding:10px; background:black; color:white; border:none; cursor:pointer; border-radius:5px;">
 
     </form>
+</div>
+<div>
+     <footer style="background-color: black; color: white; padding: 20px; text-align: center; margin-top: 20px;height: 40px; display: flex; align-items: center; justify-content: center;">
+            <p>&copy; 2023 My Website. All rights reserved.</p>
 
+        </footer>
 </div>
     
 </body>
