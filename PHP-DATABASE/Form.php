@@ -25,7 +25,7 @@ if(isset($_POST['Submit']))
 </head>
 <body style="margin: 0; padding : 0";>
 
-    <div style="display:flex; justify-content:space-between; align-items:center; color:red; height:50px; background-color:black; padding:0 20px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; color:red; height:60px; background-color:black; padding:0 20px;">
     <h2>Fill Your Form</h2>
     <nav style="display:flex; gap:20px;">
         <a href="Form.php" style="color:white; text-decoration:none;">Home</a>
@@ -34,12 +34,12 @@ if(isset($_POST['Submit']))
     </nav>
 </div>
 
-   <div style="display:flex; justify-content:center; align-items:center; height:100vh; background:#f5f5f5;">
+   <div style="display:flex; justify-content:center; align-items:center; height:80vh; background:#f5f5f5;">
 
     <form action="Dashboard.php" method="POST"
-          style="width:400px; padding:25px; border:3px solid rgb(51, 161, 229); border-radius:10px; background:#e71f1f; display:flex; flex-direction:column; gap:12px;">
+          style="width:500px; padding:25px; border:2px solid rgb(229, 51, 51); border-radius:10px; background:rgb(51, 161, 229); display:flex; flex-direction:column; gap:10px;">
 
-        <h2 style="text-align:center; margin-bottom:10px; color: greenyellow">
+        <h2 style="text-align:center; margin-bottom:10px; color: rgb(24, 23, 22)">
             Registration Form
         </h2>
 
@@ -76,7 +76,7 @@ if(isset($_POST['Submit']))
     </form>
 </div>
 <div>
-     <footer style="background-color: black; color: white; padding: 20px; text-align: center; margin-top: 20px;height: 40px; display: flex; align-items: center; justify-content: center;">
+     <footer style="background-color: black; color: white; padding: 20px; text-align: center; margin-top: 10px;height: 30px; display: flex; align-items: center; justify-content: center;">
             <p>&copy; 2023 My Website. All rights reserved.</p>
      </footer>
 </div>

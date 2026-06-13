@@ -27,12 +27,12 @@ $gendar = $_POST['gendar'] ?? '';
     </nav>
 </div>
 
-<div style="padding:30px;">
+<div style="padding:30px; ">
 
-    <h2>User Details</h2>
+    <h2 style="font:bold; text-align:center; color:blue">User Details</h2>
 
-    <table border="2" cellpadding="10" cellspacing="0" style="width:100%; text-align:center; font:bold;">
-        <tr>
+    <table border="2" cellpadding="10" cellspacing="0" style="width:100%; text-align:center; font:bold; background:lightgray;">
+        <tr style="color:red;">
             <th>Name</th>
             <th>Email</th>
             <th>Phone</th>
