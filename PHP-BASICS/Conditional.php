@@ -40,3 +40,17 @@ if($name===$name2){
 
 ?> -->
 
+<?php
+
+$num = 23;
+$num2= 34;
+
+if($num==$num2){
+    echo 'both are equal';
+}
+else{
+    echo 'both are not equal';
+}
+
+?>
+
