@@ -34,3 +34,17 @@ $result =adds(23,45);
 echo $result;
 
 ?> -->
+
+<?php
+
+function sum($a,$b){
+    $result = $a + $b;
+    return $result;
+}
+
+$out = sum(12,33);
+echo $out;
+
+$res = sum(33,44);
+echo $res;
+?>
