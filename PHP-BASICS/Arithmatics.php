@@ -62,7 +62,7 @@ echo $result . "<br>" .' $a is equal to $b';
 
 ?> -->
 
-<?php
+<!-- <?php
 
 $a = 3;
 $b = 5;
@@ -73,5 +73,17 @@ $result = ($a > $b) && ($a == 3);
 echo $result . "<br>" . ' $a is greater than $b and $a is equal to 3';
 $result = ($a > $b) || ($a == 3);
 echo $result . "<br>" . ' $a is greater than $b or $a is equal to 3';
+
+?> -->
+
+<?php 
+
+$x = 3;
+$y = 4;
+
+$output = $a + $b;
+
+echo $output;
+
 
 ?>
