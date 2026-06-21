@@ -82,6 +82,9 @@ $x = 3;
 $y = 4;
 
 $output = $a + $b;
+$result   = $a - $b;
+
+echo $result;
 
 echo $output;
 
